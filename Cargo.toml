@@ -1,0 +1,24 @@
+[package]
+name = "rereader"
+version = "0.1.0"
+edition = "2024"
+description = "A TUI EPUB reader that remembers your reading position"
+license = "MIT"
+repository = "https://github.com/jacobjuneau6/rereader"
+readme = "README.md"
+categories = ["command-line-utilities"]
+
+
+[dependencies]
+ratatui = "0.29"
+crossterm = "0.28"
+epub = "2.1"
+clap = { version = "4.5", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+dirs = "6"
+scraper = "0.22"
+anyhow = "1"
+ego-tree = "0.10"
+unicode-width = "0.2"
+mobi = "0.8"
