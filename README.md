@@ -2,6 +2,10 @@
 
 A terminal-based ebook reader with automatic progress saving. Read EPUB and MOBI files, pick up right where you left off.
 
+# Picture
+<img width="1920" height="1029" alt="image" src="https://github.com/user-attachments/assets/29c2bd3d-b500-4732-b744-3747fbfa4c04" />
+
+
 ## Features
 
 - **EPUB & MOBI support** — auto-detects format; no conversion needed
